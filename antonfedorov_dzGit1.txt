@@ -1,0 +1,346 @@
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+Create a new repository JSON
+
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+git clone git@github.com:Pixtaridz/JSON.git
+ 
+6. Внутри локального JSON создать файл “new.json”.
+cd JSON 
+touch new.json 
+
+7. Добавить файл под гит.
+git status
+git add .
+ 
+8. Закоммитить файл.
+git commit -m "new file json"
+
+9. Отправить файл на внешний GitHub репозиторий.
+git push
+
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+cat >> new.json
+{
+    "First name": "Anton",
+    "Last name": "Fedorov",
+    "Patronymic name": "Alekseevich",
+    "Age": 31,
+    "Home animal": 2,
+    "Future desired salary": "2000 usd"
+}
+
+11. Отправить изменения на внешний репозиторий.
+git status
+git add . 
+git commit -m "updated file new json"
+git push
+
+
+ 12. Создать файл preferences.json
+touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+cat >> preferences.json
+{
+    "Favorit movie": "Memento",
+    "Favorit TV-series": "Chernobyl",
+    "Favorit food": "Meat steaks",
+    "Favorit season": "Summer",
+    "Favorit country": "Мexico"
+
+}
+
+ 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+cat >> skills.json
+{
+   "hard skills":[
+      "Knowledge of software",
+      "testing types",
+      "methodologies",
+      "techniques",
+      "Familiarity with certain bug tracking",
+      "test management tools",
+      "Understanding of different SDLC",
+      "models Knowledge of a particular programming language (for test automation)"
+   ],
+   "soft skills":[
+      "Communication",
+      "Organized",
+      "Proactive",
+      "Results Driven",
+      "Problem Solving",
+      "Adaptability",
+      "Team Player",
+      "Great Attitude",
+      "Eagerness to Learn"
+   ]
+}
+
+15. Отправить сразу 2 файла на внешний репозиторий.
+git status
+git add . 
+git commit -m "add new my files"
+git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+Add file ---> Create new file
+{
+  "Project": "название проекта",
+  "Created Date": "дата создания бага",
+  "BUG ID":"идентификатор баг репорта",
+  "Environment": "окружение на чем был обнаружен баг",
+  "Summary": "краткое описание, заголовок отчета, Что? Где? При каких условиях?",
+  "Description": "более полное описание",
+  "Precondition": "Проще описать шаги и снизить их количество",
+  "Steps to reproduce": "Шаги к воспроизведению",
+  "Actual Result": "Результат",
+  "Expected Result": "Ожидаемый результат",
+  "Attachments": "Вложение скриншотов, логов, видео, гиф"
+}
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit new file
+
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON
+{
+  "Project": "название проекта",
+  "Created Date": "дата создания бага и время",
+  "BUG ID":"идентификатор баг репорта"
+  "Environment": "окружение на чем был обнаружен баг",
+  "Summary": "краткое описание, заголовок отчета, Что? Где? При каких условиях?",
+  "Severity": "Влияние дефекта на работоспособность приложения",
+  "Priority": " Очередность выполнения задачи или устранения дефекта",
+  "Description": "более полное описание",
+  "Precondition": "Проще описать шаги и снизить их количество",
+  "Steps to reproduce": "Шаги к воспроизведению",
+  "Actual Result": "Результат",
+  "Expected Result": "Ожидаемый результат",
+  "Attachments": "Вложение скриншотов, логов, видео, гиф"
+}
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ add new  
+ 
+20. Синхронизировать внешний и локальный репозиторий JSON
+git fetch
+git pull
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+Create a new repository XML
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+git clone git@github.com:Pixtaridz/XML.git
+
+23. Внутри локального XML создать файл “new.xml”.
+cd XML
+touch new.xml
+ 
+24. Добавить файл под гит.
+git status
+git add .
+
+25. Закоммитить файл.
+git commit -m "new file xml"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+cat >> new.xml 
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <firstname>Anton</firstname>
+  <lastname>Fedorov</lastname>
+  <patronymic_name>Alekseevich</patronymic_name>
+  <age>31</age>
+  <home_animal>2</home_animal>
+  <salary>200 usd</salary>
+</root>
+
+28. Отправить изменения на внешний репозиторий.
+git status
+git add . 
+git commit -m "updated file new json"
+git push
+
+ 29. Создать файл preferences.xml
+touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+cat >> preferences.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <favorit_movie>Memento</favorit_movie>
+  <favorit_serial>Chernobyl</favorit_serial>
+  <favorit_food>Meat steaks</favorit_food>
+  <favorit_season>Summer</favorit_season>
+  <favorit_country>Mexico</favorit_country>
+</root>    
+
+ 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+cat >> skills.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <hardskills>Knowledge of software testing types methodologies and techniques</hardskills>
+  <hardskills1>Familiarity with certain bug tracking and test management tools</hardskills1>
+  <hardskills2>Understanding of different SDLC</hardskills2>
+  <hardskills3>models Knowledge of a particular programming language</hardskills3>
+  <softskills>Communication</softskills>
+  <softskills1>Organized</softskills1>
+  <softskills2>Proactive</softskills2>
+  <softskills3>Adaptability Team Player</softskills3>
+</root>
+
+ 32. Сделать коммит в одну строку.
+git add . && git commit -m "add 2 new file xml"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+Add file ---> Create new file
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <Project>название проекта</Project>
+  <Created_Date>дата создания бага</Created_Date>
+  <BUG_ID>идентификатор баг репорта</BUG_ID>
+  <Environment>окружение на чем был обнаружен баг</Environment>
+  <Summary>краткое описание, заголовок отчета, Что? Где? При каких условиях?</Summary>
+  <Description>более полное описание</Description>
+  <Precondition>Проще описать шаги и снизить их количество</Precondition> 
+  <Steps_to_reproduce>Шаги к воспроизведению</Steps_to_reproduce>
+  <Actual_Result>Результат</Actual_Result>
+  <Expected_Result>Ожидаемый результат</Expected_Result>
+  <Attachments>Вложение скриншотов, логов, видео, гиф</Attachments>
+</root>
+ 
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit new file
+
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <Project>название проекта</Project>
+  <Created_Date>дата создания бага</Created_Date>
+  <BUG_ID>идентификатор баг репорта</BUG_ID>
+  <Environment>окружение на чем был обнаружен баг</Environment>
+  <Summary>краткое описание, заголовок отчета, Что? Где? При каких условиях?</Summary>
+  <Severity>Влияние дефекта на работоспособность приложения</Severity>
+  <Priority>Очередность выполнения задачи или устранения дефекта</Priority>
+  <Description>более полное описание</Description>
+  <Precondition>Проще описать шаги и снизить их количество</Precondition> 
+  <Steps_to_reproduce>Шаги к воспроизведению</Steps_to_reproduce>
+  <Actual_Result>Результат</Actual_Result>
+  <Expected_Result>Ожидаемый результат</Expected_Result>
+  <Attachments>Вложение скриншотов, логов, видео, гиф</Attachments>
+</root>
+
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+add new
+
+38. Синхронизировать внешний и локальный репозиторий XML
+git fetch
+git pull
+
+TXT
+
+1. Создать внешний репозиторий c названием TXT.
+Create a new repository TXT
+
+2. Клонировать репозиторий TXT на локальный компьютер.
+git@github.com:Pixtaridz/TXT.git
+
+3. Внутри локального TXT создать файл “new.txt”.
+cd TXT
+touch new.txt 
+
+4. Добавить файл под гит.
+git status
+git add .
+
+5. Закоммитить файл.
+git commit -m "new file txt"
+ 
+6. Отправить файл на внешний GitHub репозиторий.
+git push
+
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+cat >> new.txt
+Имя: Антон
+Фамилия: Федоров
+Отчество: Алексеевич
+Возраст: 31 год
+Домашние животные: 2
+Будущая желаемая зарплата: 2000 usd
+
+8. Отправить изменения на внешний репозиторий.
+git status
+git add . 
+git commit -m "updated file new json"
+git push
+
+9. Создать файл preferences.txt
+touch preferences.json
+
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате TXT.
+cat >> preferences.txt
+Любимый фильм: Мементо
+Любимый сериал: Чернобыль
+Любимая еда: Мясные стейки
+Любимое время года: Лето
+Страна которую я хотел бы посетить: Мексика
+
+11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+cat >> skills.txt
+Знание методологий и методов тестирования программного обеспечения. Знакомство с некоторыми инструментами отслеживания ошибок и управления тестированием. Понимание различных SDLC (жизненного цикла разработки программного обеспечения), моделей. Знание определенного языка программирования (для автоматизации тестирования)
+Курсы так жа дают возможно развить: Коммуникабельность, организованность, инициативность и ориентированность на результат Решение проблем, адаптивность, командный игрок и отличное отношение к работе, имеется стремление к обучению.
+
+12. Сделать коммит в одну строку.
+git add . && git commit -m "add 2 new file txt"
+
+13. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+14. На веб интерфейсе создать файл bug_report.txt.
+Add file ---> Create new file
+  Project: название проекта.
+  Created Date: дата создания бага и время
+  BUG ID:"идентификатор баг репорта
+  Environment: окружение на чем был обнаружен баг
+  Summary: краткое описание, заголовок отчета, Что? Где? При каких условиях?
+  Severity: Влияние дефекта на работоспособность приложения
+  Priority:  Очередность выполнения задачи или устранения дефекта
+  Description: более полное описание
+  Precondition: "Проще описать шаги и снизить их количество
+  Steps to reproduce: Шаги к воспроизведению
+  Actual Result: Результат
+  Expected Result:Ожидаемый результат
+  Attachments: Вложение скриншотов, логов, видео, гиф
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit new file
+
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+  Project: название проекта.
+  Created Date: дата создания бага и время
+  BUG ID:"идентификатор баг репорта
+  Environment: окружение на чем был обнаружен баг
+  Summary: краткое описание, заголовок отчета, Что? Где? При каких условиях?
+  Severity: Влияние дефекта на работоспособность приложения
+  Priority:  Очередность выполнения задачи или устранения дефекта
+  Description: более полное описание
+  Precondition: "Проще описать шаги и снизить их количество
+  Steps to reproduce: Шаги к воспроизведению
+  Actual Result: Результат
+  Expected Result:Ожидаемый результат
+  Attachments: Вложение скриншотов, логов, видео, гиф
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+new add
+
+
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+git fetch
+git pull
